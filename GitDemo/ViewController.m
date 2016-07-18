@@ -11,6 +11,7 @@
 @interface ViewController ()
 @property (nonatomic, assign) NSInteger sum;
 @property (nonatomic, strong) TestClass *myTestClass;
+- (void) sayHello;
 @end
 
 @implementation ViewController
@@ -20,6 +21,7 @@
     NSInteger a = 5;
     NSInteger b= 10;
     _sum = a +b;
+    [self sayHello];
     
     // Do any additional setup after loading the view, typically from a nib.
 }
@@ -29,4 +31,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void) sayHello{
+    NSLog(@"HELLO");
+}
 @end
