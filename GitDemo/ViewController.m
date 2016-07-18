@@ -12,6 +12,7 @@
 @property (nonatomic, assign) NSInteger sum;
 @property (nonatomic, strong) TestClass *myTestClass;
 - (void) sayHello;
+- (void) sayBayBay;
 @end
 
 @implementation ViewController
@@ -23,6 +24,7 @@
     _sum = a +b;
     [self sayHello];
     
+    [self sayBayBay];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -33,5 +35,8 @@
 
 - (void) sayHello{
     NSLog(@"HELLO");
+}
+- (void) sayBayBay{
+    NSLog(@"BAYBAY");
 }
 @end
