@@ -13,6 +13,7 @@
 @property (nonatomic, strong) TestClass *myTestClass;
 - (void) sayHello;
 - (void) sayBayBay;
+- (void) createUser;
 @end
 
 @implementation ViewController
@@ -38,5 +39,8 @@
 }
 - (void) sayBayBay{
     NSLog(@"BAYBAY");
+}
+- (void) createUser{
+    NSLog(@"hahahahahh");
 }
 @end
