@@ -7,10 +7,10 @@
 //
 
 #import "ViewController.h"
-
+#import "TestClass.h"
 @interface ViewController ()
 @property (nonatomic, assign) NSInteger sum;
-
+@property (nonatomic, strong) TestClass *myTestClass;
 @end
 
 @implementation ViewController
